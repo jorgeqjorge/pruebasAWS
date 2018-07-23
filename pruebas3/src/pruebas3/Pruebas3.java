@@ -23,10 +23,8 @@ public class Pruebas3 {
         // TODO code application logic here
         Segunda s = new Segunda();
         try {
-            s.ping();
+//            s.ping();
             s.ruebaSitio();
-        } catch (IOException ex) {
-            Logger.getLogger(Pruebas3.class.getName()).log(Level.SEVERE, null, ex);
         } catch (InterruptedException ex) {
             Logger.getLogger(Pruebas3.class.getName()).log(Level.SEVERE, null, ex);
         } catch (AWTException ex) {
